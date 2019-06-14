@@ -1,0 +1,10 @@
+<!-- BEGIN SMARTPHONE -->
+<section id="smartphone" class="container-fluid pt-5 pb-5">
+  <h1 class="text-white text-center">BEST SMARTPHONE</h1>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-lg-3" *ngFor = 'let card of SmartphoneData'>
+      <app-home-product-card [card]='card'></app-home-product-card>
+    </div>
+  </div>
+</section>
+<!-- END SMARTPHONE -->
